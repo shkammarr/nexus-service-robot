@@ -1,39 +1,23 @@
 # 🤖 NEXUS – Autonomous Service Robot
 
-An intelligent WiFi-enabled mobile robot designed to demonstrate autonomous navigation, obstacle avoidance, and real-time embedded control on resource-constrained hardware.
+**NEXUS** An intelligent WiFi-enabled mobile robot designed to demonstrate autonomous navigation, obstacle avoidance, and real-time embedded control on resource-constrained hardware.
 
 Built around the ESP8266 NodeMCU, NEXUS combines wireless communication, sensor-based decision making, differential drive control, and a browser-based control interface into a single autonomous robotic platform.
 
----
-
-## 📷 Project Gallery
-
-### Robot Platform
-
-![NEXUS Robot](images/robot.jpg)
-
-### Web Control Dashboard
-
-![Control Panel](images/control-panel.jpg)
-
-### Autonomous Navigation Demo
-
-![Navigation](images/navigation.jpg)
+![NEXUS Robot](images/Nexus.jpg)
 
 ---
+## How it Works
 
-## Highlights
+**NEXUS** creates its own WiFi network and hosts a web-based control dashboard that can be accessed from any smartphone, tablet, or computer browser. The ESP8266 continuously processes commands, reads distance data from the ultrasonic sensor, controls motor movement through the L298N motor driver, and updates the OLED display in real time. 
 
-🌐 Browser-based robot control (No mobile app required)
-🚗 Manual, Autonomous & Smart Navigation modes
-📡 ESP8266-hosted WiFi control panel
-🚧 Real-time obstacle detection and avoidance
-⚡ Non-blocking firmware architecture using `millis()`
-📺 OLED status display with live robot feedback
-🛑 Emergency stop and safety lock mechanism
-🔋 Fully portable battery-powered platform
+The robot supports three operating modes: 
 
----
+* **Manual Mode** – User directly controls movement through the web interface.
+* **Autonomous Mode** – Robot independently detects and avoids obstacles while navigating its environment.
+* **Smart Mode** – User controls the robot manually while automatic obstacle avoidance remains active in the background.
+
+A non-blocking state-machine architecture allows sensor monitoring, navigation decisions, web server communication, and display updates to run simultaneously, ensuring smooth and responsive operation.
 
 ## 🧠 System Architecture
 
@@ -69,6 +53,7 @@ all simultaneously without blocking execution.
 ### 🎮 Manual Mode
 
 Direct browser-based control using movement commands.
+![Control Panel](images/Ctrlpanel.png)
 
 ### 🤖 Autonomous Mode
 
@@ -77,6 +62,18 @@ Fully autonomous movement with obstacle detection and route correction.
 ### 🧠 Smart Mode
 
 User controls the robot while obstacle avoidance remains active in the background.
+## Highlights
+
+🌐 Browser-based robot control (No mobile app required) \
+🚗 Manual, Autonomous & Smart Navigation modes \
+📡 ESP8266-hosted WiFi control panel \
+🚧 Real-time obstacle detection and avoidance \
+⚡ Non-blocking firmware architecture using `millis()`  \
+📺 OLED status display with live robot feedback \
+🛑 Emergency stop and safety lock mechanism \
+🔋  Fully portable battery-powered platform 
+
+---
 
 ## 🎯 Project Objective
 
