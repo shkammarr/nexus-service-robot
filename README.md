@@ -22,16 +22,16 @@ Built around the ESP8266 NodeMCU, NEXUS combines wireless communication, sensor-
 
 ---
 
-## ✨ Highlights
+## Highlights
 
-* 🌐 Browser-based robot control (No mobile app required)
-* 🚗 Manual, Autonomous & Smart Navigation modes
-* 📡 ESP8266-hosted WiFi control panel
-* 🚧 Real-time obstacle detection and avoidance
-* ⚡ Non-blocking firmware architecture using `millis()`
-* 📺 OLED status display with live robot feedback
-* 🛑 Emergency stop and safety lock mechanism
-* 🔋 Fully portable battery-powered platform
+🌐 Browser-based robot control (No mobile app required)
+🚗 Manual, Autonomous & Smart Navigation modes
+📡 ESP8266-hosted WiFi control panel
+🚧 Real-time obstacle detection and avoidance
+⚡ Non-blocking firmware architecture using `millis()`
+📺 OLED status display with live robot feedback
+🛑 Emergency stop and safety lock mechanism
+🔋 Fully portable battery-powered platform
 
 ---
 
