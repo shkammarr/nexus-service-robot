@@ -1,6 +1,6 @@
 # 🤖 NEXUS – Autonomous Service Robot
 
-**NEXUS** An intelligent WiFi-enabled mobile robot designed to demonstrate autonomous navigation, obstacle avoidance, and real-time embedded control on resource-constrained hardware.
+**NEXUS** An intelligent WiFi-enabled mobile robot designed to demonstrate autonomous navigation, obstacle avoidance, and real-time embedded control on resource-constrained hardware
 
 Built around the ESP8266 NodeMCU, NEXUS combines wireless communication, sensor-based decision making, differential drive control, and a browser-based control interface into a single autonomous robotic platform.
 
